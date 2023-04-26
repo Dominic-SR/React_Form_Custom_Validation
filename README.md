@@ -9,3 +9,5 @@
 
 
 <p style="text-align: center;">This React Form is created by Dominic</p>
+
+<h1> HOME PAGE</h1>
