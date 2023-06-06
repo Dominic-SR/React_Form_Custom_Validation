@@ -12,7 +12,6 @@ export default function validate(values){
         errors.email ="Email address is invalid";
     }
 
-    console.log("____>",values.password.length < 6)
     if(!values.password.trim()){
         errors.password ="Password required";
     }
