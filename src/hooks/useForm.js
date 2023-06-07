@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const useForm = (validate) => {
 const [values, setValues] = useState({
@@ -12,6 +12,11 @@ const [errors, setErrors] = useState({});
 
 const handleChange = (e) =>{
     const {name, value} = e.target;
+
+    const updateErrors = {...errors}
+    delete updateErrors[name]
+    setErrors(updateErrors)
+
     setValues((prevValues)=>{
         return{
             ...prevValues,
