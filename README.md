@@ -8,5 +8,5 @@
 <a href="https://github.com/Dominic-SR/"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 
-<p style="text-align: center;">This React Form is created by Dominic</p>
+<p style="text-align: center;">This React Form validation is created by Dominic</p>
 
